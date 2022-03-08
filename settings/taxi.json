@@ -1,0 +1,15 @@
+{
+  "hidden_size": 256,
+  "k": 3,
+  "true_mask": [1, 1, 0, 1, 1],
+  "confused_mask":  [1, 1, 1, 1, 0],
+  "features": {
+    "taxi_x": 0,
+    "taxi_y": 1,
+    "descriptor": 2,
+    "location": 3,
+    "destination": 4
+  },
+  "feature_values": [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3], [0, 1, 2, 3, 4], [0, 1, 2, 3]],
+  "masks": [[1, 1, 1, 1, 1], [1, 1, 1, 1, 0], [1, 1, 0, 1, 1], [1, 1, 0, 1, 0]]
+}
